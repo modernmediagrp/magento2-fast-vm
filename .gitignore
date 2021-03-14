@@ -2,10 +2,15 @@
 /.idea
 /.DS_Store
 /ssh
-/www
+#/www
 /vagrant-ssh
 /config.yaml
 /extra/001-env.sh
 /extra/100-pre-build.sh
 /extra/120-post-build.sh
 /db-dump.sql.gz
+
+www/magento/*
+!www/magento/.gitkeep
+!www/magento/composer.json
+!www/magento/composer.lock
